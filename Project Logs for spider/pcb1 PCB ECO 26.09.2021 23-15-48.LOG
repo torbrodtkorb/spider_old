@@ -1,0 +1,30 @@
+Added Pin To Net: NetName=NetC3_2 Pin=U1-7
+Change Net Name : Old Net Name=NetC3_2 New Net Name=BUTTON
+Added Pin To Net: NetName=IR Pin=IR1-3
+Added Pin To Net: NetName=IR Pin=U1-6
+Added Net: Name=IR
+Added Pin To Net: NetName=LED1 Pin=R2-2
+Added Pin To Net: NetName=LED1 Pin=U1-3
+Added Net: Name=LED1
+Added Pin To Net: NetName=LED2 Pin=R3-2
+Added Pin To Net: NetName=LED2 Pin=U1-4
+Added Net: Name=LED2
+Added Pin To Net: NetName=LED3 Pin=R5-2
+Added Pin To Net: NetName=LED3 Pin=U1-5
+Added Net: Name=LED3
+Added Pin To Net: NetName=Ledstrip Pin=U1-16
+Added Net: Name=Ledstrip
+Added Pin To Net: NetName=SOUND Pin=R12-2
+Added Pin To Net: NetName=SOUND Pin=U1-8
+Added Pin To Net: NetName=SOUND Pin=U2-1
+Added Net: Name=SOUND
+Added Member To Class: ClassName=schematic Member=Component C6 passive_5
+Added Member To Class: ClassName=schematic Member=Component C13 passive_5
+Added Member To Class: ClassName=schematic Member=Component J2 USB 2.0
+Added Member To Class: ClassName=schematic Member=Component R8 passive_2
+Added Member To Class: ClassName=schematic Member=Component R9 passive_2
+Added Member To Class: ClassName=schematic Member=Component R10 passive_2
+Added Member To Class: ClassName=schematic Member=Component R13 passive_2
+Added Member To Class: ClassName=schematic Member=Component R14 passive_2
+Added Member To Class: ClassName=schematic Member=Component R15 passive_2
+Added Member To Class: ClassName=schematic Member=Component U2 ic_6
