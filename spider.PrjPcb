@@ -412,10 +412,10 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=WTKOINYY
+DocumentUniqueId=VUSGFCUK
 
 [Document23]
-DocumentPath=pcb1.PcbDoc
+DocumentPath=library\output-job\output-job.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -429,7 +429,79 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=VUSGFCUK
+DocumentUniqueId=
+
+[GeneratedDocument1]
+DocumentPath=Project Outputs for spider\Design Rule Check - pcb.html
+DItemRevisionGUID=
+
+[GeneratedDocument2]
+DocumentPath=output\NC Drill\pcb-RoundHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=output\NC Drill\pcb-SlotHoles.TXT
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=output\NC Drill\pcb.DRR
+DItemRevisionGUID=
+
+[GeneratedDocument5]
+DocumentPath=output\Gerber\pcb.EXTREP
+DItemRevisionGUID=
+
+[GeneratedDocument6]
+DocumentPath=output\Gerber\pcb.GBL
+DItemRevisionGUID=
+
+[GeneratedDocument7]
+DocumentPath=output\Gerber\pcb.GBO
+DItemRevisionGUID=
+
+[GeneratedDocument8]
+DocumentPath=output\Gerber\pcb.GBP
+DItemRevisionGUID=
+
+[GeneratedDocument9]
+DocumentPath=output\Gerber\pcb.GBS
+DItemRevisionGUID=
+
+[GeneratedDocument10]
+DocumentPath=output\Gerber\pcb.GKO
+DItemRevisionGUID=
+
+[GeneratedDocument11]
+DocumentPath=output\Gerber\pcb.GP1
+DItemRevisionGUID=
+
+[GeneratedDocument12]
+DocumentPath=output\Gerber\pcb.GP2
+DItemRevisionGUID=
+
+[GeneratedDocument13]
+DocumentPath=output\Gerber\pcb.GTL
+DItemRevisionGUID=
+
+[GeneratedDocument14]
+DocumentPath=output\Gerber\pcb.GTO
+DItemRevisionGUID=
+
+[GeneratedDocument15]
+DocumentPath=output\Gerber\pcb.GTP
+DItemRevisionGUID=
+
+[GeneratedDocument16]
+DocumentPath=output\Gerber\pcb.GTS
+DItemRevisionGUID=
+
+[GeneratedDocument17]
+DocumentPath=output\NC Drill\pcb.LDP
+DItemRevisionGUID=
+
+[GeneratedDocument18]
+DocumentPath=output\Gerber\pcb.REP
+DItemRevisionGUID=
 
 [Configuration1]
 Name=Sources
@@ -440,6 +512,9 @@ Variant=[No Variations]
 OutputJobsCount=0
 ContentTypeGUID=CB6F2064-E317-11DF-B822-12313F0024A2
 ConfigurationType=Source
+
+[Generic_EDE]
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -550,7 +625,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=insane
+TargetPrinter=Microsoft Print to PDF
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -755,6 +830,18 @@ OutputName6=Report Single Pin Nets
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
